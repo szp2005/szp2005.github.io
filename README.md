@@ -18,8 +18,10 @@ Official developer index and benchmark portal: [**https://szp2005.github.io**](h
    - Cost Pitfalls Guide: [2026 Mainstream LLM API Pricing & Hidden Cost Guide](https://blush-surfboard-20a.notion.site/2026-API-41001f8845cc80fcbcbffd5b240431f3)
 
 3. **[Koutuxia 抠图侠 (https://koutuxia.com)](https://koutuxia.com)** — AI Image Background Remover & Alpha Matte Studio.
+   - GitHub Benchmark Toolkit: [`szp2005/alpha-matte-toolkit`](https://github.com/szp2005/alpha-matte-toolkit)
    - Hugging Face Space: [`szp2005/background-remover-local`](https://huggingface.co/spaces/szp2005/background-remover-local)
 
 4. **[Moguan PDF 墨观 (https://moguanpdf.com)](https://moguanpdf.com)** — 24+ Browser-Based PDF Processing Utilities.
+   - GitHub Compression & Memory Benchmark Toolkit: [`szp2005/pdf-workflow-benchmarks`](https://github.com/szp2005/pdf-workflow-benchmarks)
 
 5. **[AIJuhe (https://aijuhe.org)](https://aijuhe.org)** — Curated AI Tools & Developer Resources Directory.
