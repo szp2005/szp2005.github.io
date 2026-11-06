@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://szp2005.github.io/sitemap.xml

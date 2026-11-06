@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Utilities, Network Audit & AI Cost Benchmarks | szp2005</title>
+  <meta name="description" content="Official developer hub for IPOK (Multi-Source IP Purity & Dual-Stack Audit), LLM Abacus (50+ LLM API Pricing & Prompt Caching Calculator), Koutuxia (AI Background Remover), and Moguan PDF.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://szp2005.github.io/">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Developer Utilities, Network Audit & AI Cost Benchmarks",
+    "url": "https://szp2005.github.io/",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "WebApplication",
+          "name": "IPOK — Multi-Source IP Purity & Dual-Stack Network Audit",
+          "url": "https://ipok.io",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Web, macOS, Linux, Windows, iOS, Chrome",
+          "description": "Multi-source IP reputation consensus engine aggregating AbuseIPDB, Scamalytics, IP-API, Proxycheck, and RIR RDAP for IPv4 and IPv6 dual-stack diagnostics."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "WebApplication",
+          "name": "LLM Abacus (算盘) — LLM API Price Comparison & Token Cost Calculator",
+          "url": "https://llmabacus.com",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "Web",
+          "description": "Daily-verified pricing dataset and interactive token cost calculator across 50+ LLMs including DeepSeek, OpenAI, Anthropic Claude, Google Gemini, and Qwen."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "WebApplication",
+          "name": "Koutuxia (抠图侠) — AI Background Remover & Alpha Matte Studio",
+          "url": "https://koutuxia.com",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "Web",
+          "description": "High-precision AI image background removal and transparent PNG alpha matte studio for portraits, e-commerce products, and graphics."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "WebApplication",
+          "name": "Moguan PDF (墨观) — 24+ PDF Processing Utilities",
+          "url": "https://moguanpdf.com",
+          "applicationCategory": "BusinessApplication",
+          "operatingSystem": "Web",
+          "description": "Comprehensive PDF toolkit for merging, splitting, compressing, converting, and organizing PDF documents."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <header class="border-b border-slate-800 bg-slate-900/60">
+    <div class="max-w-5xl mx-auto px-4 py-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold mb-3">
+        <span>Open Developer Suite & Technical Benchmarks</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+        Network Diagnostics, LLM Pricing Benchmarks & Web Utilities
+      </h1>
+      <p class="mt-3 text-slate-300 max-w-3xl text-base leading-relaxed">
+        Production web tools, open datasets, CLI packages, and engineering whitepapers for IP reputation auditing, Large Language Model cost analysis, AI matting, and document workflows.
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 space-y-10">
+    <!-- Core Web Applications -->
+    <section class="space-y-6">
+      <h2 class="text-xl font-bold text-white border-b border-slate-800 pb-2">
+        1. Core Production Platforms
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- IPOK -->
+        <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between space-y-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold uppercase tracking-wider text-emerald-400">Network Security & IP Audit</span>
+              <span class="text-xs text-slate-400 font-mono">ipok.io</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <a href="https://ipok.io" class="hover:text-emerald-400 transition-colors">
+                IPOK — Multi-Source IP Purity & Dual-Stack Checker
+              </a>
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Cross-verifies IPv4 and IPv6 addresses across 6+ authoritative upstream sources (AbuseIPDB, Scamalytics, IP-API, Proxycheck, Cloudflare Radar, and RIR RDAP) with automatic single-source outlier suppression and native vs. broadcast ISP detection.
+            </p>
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 font-mono text-xs text-emerald-300">
+              $ curl -sL https://ipok.io/check<br>
+              $ npx ipok-check
+            </div>
+          </div>
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap gap-3 text-xs font-medium">
+            <a href="https://ipok.io" class="bg-emerald-600 hover:bg-emerald-500 text-white px-3.5 py-1.5 rounded-lg">Launch Web App &rarr;</a>
+            <a href="https://www.npmjs.com/package/ipok-check" class="text-emerald-400 hover:underline py-1.5">NPM (ipok-check)</a>
+            <a href="https://chromewebstore.google.com/detail/ipok-ip-check-multi-sourc/jnbkfmgldcchpdgnegafakbcnmkdhiai" class="text-slate-300 hover:underline py-1.5">Chrome Extension</a>
+            <a href="https://huggingface.co/spaces/szp2005/ip-purity-checker" class="text-slate-300 hover:underline py-1.5">HF Space</a>
+          </div>
+        </article>
+
+        <!-- LLM Abacus -->
+        <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between space-y-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400">AI Infrastructure & FinOps</span>
+              <span class="text-xs text-slate-400 font-mono">llmabacus.com</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <a href="https://llmabacus.com" class="hover:text-indigo-400 transition-colors">
+                LLM Abacus (算盘) — LLM API Pricing & Cost Calculator
+              </a>
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              Daily-verified API pricing comparison across 50+ models (DeepSeek R1/V3/V4, OpenAI GPT-4o/o3-mini, Claude 3.7 Sonnet, Gemini 2.0, Alibaba Qwen). Accurately models Prompt Caching hit discounts and multi-currency (USD/CNY) billing.
+            </p>
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 font-mono text-xs text-indigo-300">
+              $ npm install llm-pricing-calc
+            </div>
+          </div>
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap gap-3 text-xs font-medium">
+            <a href="https://llmabacus.com" class="bg-indigo-600 hover:bg-indigo-500 text-white px-3.5 py-1.5 rounded-lg">Open Price Matrix &rarr;</a>
+            <a href="https://www.npmjs.com/package/llm-pricing-calc" class="text-indigo-400 hover:underline py-1.5">NPM (llm-pricing-calc)</a>
+            <a href="https://github.com/szp2005/llm-prices-cn" class="text-slate-300 hover:underline py-1.5">GitHub Dataset</a>
+            <a href="https://huggingface.co/spaces/szp2005/llm-cost-calculator" class="text-slate-300 hover:underline py-1.5">HF Space</a>
+          </div>
+        </article>
+
+        <!-- Koutuxia -->
+        <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between space-y-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold uppercase tracking-wider text-purple-400">Computer Vision & Matting</span>
+              <span class="text-xs text-slate-400 font-mono">koutuxia.com</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <a href="https://koutuxia.com" class="hover:text-purple-400 transition-colors">
+                Koutuxia (抠图侠) — AI Background Remover & Alpha Studio
+              </a>
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              High-precision AI background removal and hair-edge alpha matte generation for portraits, e-commerce product photography, and design assets with studio backdrop previews.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap gap-3 text-xs font-medium">
+            <a href="https://koutuxia.com" class="bg-purple-600 hover:bg-purple-500 text-white px-3.5 py-1.5 rounded-lg">Open AI Cutout Studio &rarr;</a>
+            <a href="https://huggingface.co/spaces/szp2005/background-remover-local" class="text-purple-400 hover:underline py-1.5">Alpha Matte Inspector (HF Space)</a>
+          </div>
+        </article>
+
+        <!-- Moguan PDF & AIJuhe -->
+        <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between space-y-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold uppercase tracking-wider text-amber-400">Document & AI Ecosystem</span>
+              <span class="text-xs text-slate-400 font-mono">moguanpdf.com • aijuhe.org</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">
+              <a href="https://moguanpdf.com" class="hover:text-amber-400 transition-colors">
+                Moguan PDF (墨观) & AIJuhe Directory
+              </a>
+            </h3>
+            <p class="text-sm text-slate-300 leading-relaxed">
+              <strong><a href="https://moguanpdf.com" class="text-amber-300 hover:underline">Moguan PDF (moguanpdf.com)</a></strong> provides 24+ browser-based PDF tools for merging, splitting, compressing, watermarking, and format conversion. <strong><a href="https://aijuhe.org" class="text-amber-300 hover:underline">AIJuhe (aijuhe.org)</a></strong> indexes 380+ curated AI productivity tools.
+            </p>
+          </div>
+          <div class="pt-3 border-t border-slate-800 flex flex-wrap gap-3 text-xs font-medium">
+            <a href="https://moguanpdf.com" class="bg-amber-600 hover:bg-amber-500 text-white px-3.5 py-1.5 rounded-lg">Launch Moguan PDF &rarr;</a>
+            <a href="https://aijuhe.org" class="text-amber-400 hover:underline py-1.5">Explore AIJuhe.org &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Engineering Whitepapers & Open Packages -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-white border-b border-slate-800 pb-2">
+        2. 2026 Engineering Whitepapers, Datasets & Open Packages
+      </h2>
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl divide-y divide-slate-800 text-sm">
+        <div class="p-4 flex items-center justify-between flex-wrap gap-2">
+          <div>
+            <span class="font-semibold text-white">2026 Global Public IP Purity, Native vs. Broadcast ISP & Multi-Source Consensus Whitepaper</span>
+            <p class="text-xs text-slate-400 mt-0.5">Technical breakdown of AbuseIPDB, Scamalytics, IP-API, Proxycheck, Cloudflare Radar, and RIR RDAP consensus weighting.</p>
+          </div>
+          <div class="flex gap-3 text-xs font-medium">
+            <a href="https://blush-surfboard-20a.notion.site/2026-IP-41001f8845cc80efbba0dbe3aea9c5c1" class="text-emerald-400 hover:underline">Read Whitepaper (Notion) &rarr;</a>
+            <a href="https://ipok.io" class="text-slate-300 hover:underline">ipok.io</a>
+          </div>
+        </div>
+
+        <div class="p-4 flex items-center justify-between flex-wrap gap-2">
+          <div>
+            <span class="font-semibold text-white">2026 Mainstream LLM API Pricing & Hidden Cost Pitfalls Guide</span>
+            <p class="text-xs text-slate-400 mt-0.5">Analysis of reasoning/thinking token billing multipliers, prompt caching prefix hashing rules, and tiered context pricing.</p>
+          </div>
+          <div class="flex gap-3 text-xs font-medium">
+            <a href="https://blush-surfboard-20a.notion.site/2026-API-41001f8845cc80fcbcbffd5b240431f3" class="text-indigo-400 hover:underline">Read Guide (Notion) &rarr;</a>
+            <a href="https://llmabacus.com" class="text-slate-300 hover:underline">llmabacus.com</a>
+          </div>
+        </div>
+
+        <div class="p-4 flex items-center justify-between flex-wrap gap-2">
+          <div>
+            <span class="font-semibold text-white">Open Source NPM Packages & CDN Mirrors</span>
+            <p class="text-xs text-slate-400 mt-0.5">Zero-dependency JavaScript/TypeScript SDKs and CLI tools distributed via NPM, jsDelivr, and unpkg.</p>
+          </div>
+          <div class="flex flex-wrap gap-3 text-xs font-medium">
+            <a href="https://www.npmjs.com/package/ipok-check" class="text-emerald-400 hover:underline">npm: ipok-check</a>
+            <a href="https://www.npmjs.com/package/llm-pricing-calc" class="text-indigo-400 hover:underline">npm: llm-pricing-calc</a>
+            <a href="https://cdn.jsdelivr.net/npm/ipok-check@1.0.0/README.md" class="text-slate-400 hover:underline">jsDelivr (ipok-check)</a>
+            <a href="https://cdn.jsdelivr.net/npm/llm-pricing-calc@1.0.0/README.md" class="text-slate-400 hover:underline">jsDelivr (llm-pricing-calc)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <div class="max-w-5xl mx-auto px-4 flex flex-wrap items-center justify-center gap-4">
+      <a href="https://ipok.io" class="hover:text-slate-300">IPOK (ipok.io)</a>
+      <span>•</span>
+      <a href="https://llmabacus.com" class="hover:text-slate-300">LLM Abacus (llmabacus.com)</a>
+      <span>•</span>
+      <a href="https://koutuxia.com" class="hover:text-slate-300">Koutuxia (koutuxia.com)</a>
+      <span>•</span>
+      <a href="https://moguanpdf.com" class="hover:text-slate-300">Moguan PDF (moguanpdf.com)</a>
+      <span>•</span>
+      <a href="https://aijuhe.org" class="hover:text-slate-300">AIJuhe (aijuhe.org)</a>
+    </div>
+  </footer>
+</body>
+</html>
