@@ -17,7 +17,8 @@ Official developer index and benchmark portal: [**https://szp2005.github.io**](h
    - Hugging Face Space: [`szp2005/llm-cost-calculator`](https://huggingface.co/spaces/szp2005/llm-cost-calculator)
    - Cost Pitfalls Guide: [2026 Mainstream LLM API Pricing & Hidden Cost Guide](https://blush-surfboard-20a.notion.site/2026-API-41001f8845cc80fcbcbffd5b240431f3)
 
-3. **[Koutuxia 抠图侠 (https://koutuxia.com)](https://koutuxia.com)** — AI Image Background Remover & Alpha Matte Studio.
+3. **[Remove.ac / 抠图侠 (https://remove.ac)](https://remove.ac)** — On-Device WebAssembly AI Background Remover, Batch Alpha Studio & `/v1.0/removebg` Cloud GPU API.
+   - Official CLI, Python/Node & MCP SDK: [`szp2005/remove-ac-sdk`](https://github.com/szp2005/remove-ac-sdk)
    - GitHub Benchmark Toolkit: [`szp2005/alpha-matte-toolkit`](https://github.com/szp2005/alpha-matte-toolkit)
    - Hugging Face Space: [`szp2005/background-remover-local`](https://huggingface.co/spaces/szp2005/background-remover-local)
 
